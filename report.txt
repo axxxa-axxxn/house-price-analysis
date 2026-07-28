@@ -1,0 +1,51 @@
+CALIFORNIA HOUSING EDA REPORT
+==================================================
+
+Total Rows : 20640
+Total Columns : 13
+
+Missing Values
+------------------------------
+longitude                   0
+latitude                    0
+housing_median_age          0
+total_rooms                 0
+total_bedrooms              0
+population                  0
+households                  0
+median_income               0
+median_house_value          0
+ocean_proximity             0
+rooms_per_household         0
+bedrooms_per_room           0
+population_per_household    0
+
+Duplicate Rows
+------------------------------
+0
+
+Average House Price
+------------------------------
+206855.81690891474
+
+Average Median Income
+------------------------------
+3.8706710029069766
+
+Average Price by Ocean Proximity
+------------------------------
+ocean_proximity
+<1H OCEAN     240084.285464
+INLAND        124805.392001
+ISLAND        380440.000000
+NEAR BAY      259212.311790
+NEAR OCEAN    249433.977427
+
+Key Findings
+------------------------------
+- Missing values were found mainly in total_bedrooms.
+- Missing values were replaced using the median.
+- Several numerical columns contain outliers.
+- Median income has a strong positive relationship with house prices.
+- Houses near the ocean generally have higher prices.
+- Additional features were created for better analysis.
